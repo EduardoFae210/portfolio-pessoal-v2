@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Eduardo Faé Zanchet, estudante de Ciência da Computação na UPF.">
+  <title>Eduardo Faé Zanchet | Portfólio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Início">EFZ<span>.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="theme-button" type="button" aria-label="Alternar tema" title="Alternar tema">☾</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Olá, meu nome é</p>
+          <h1>Eduardo Faé Zanchet</h1>
+          <p class="hero-title">Estudante de Ciência da Computação e futuro profissional de TI.</p>
+          <p class="hero-text">
+            Desenvolvo projetos com Python e tecnologias web, estudo banco de dados, Git e Linux e busco minha primeira oportunidade em desenvolvimento, QA ou suporte técnico.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Ver projetos</a>
+            <a class="button secondary" href="mailto:eduardofae21@gmail.com">Entrar em contato</a>
+          </div>
+          <ul class="quick-info" aria-label="Informações rápidas">
+            <li>📍 Passo Fundo, RS</li>
+            <li>🎓 Ciência da Computação — UPF</li>
+            <li>🕘 Disponível manhã e tarde</li>
+          </ul>
+        </div>
+        <div class="profile-card" aria-label="Resumo profissional">
+          <div class="avatar" aria-hidden="true">EF</div>
+          <p class="status"><span></span> Aberto a oportunidades</p>
+          <h2>Desenvolvimento, QA e Suporte</h2>
+          <p>Presencial em Passo Fundo, híbrido ou remoto.</p>
+          <div class="profile-links">
+            <a href="https://github.com/EduardoFae210" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/eduardofaezanchet/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container narrow">
+        <p class="section-label">Sobre mim</p>
+        <h2>Aprendizado constante e vontade de resolver problemas.</h2>
+        <p>
+          Sou estudante do 2º semestre de Ciência da Computação na Universidade de Passo Fundo. Tenho conhecimentos em programação, desenvolvimento web, banco de dados e ferramentas de versionamento. Gosto de pesquisar soluções, testar possibilidades e transformar uma necessidade em algo funcional.
+        </p>
+        <p>
+          Busco uma primeira experiência profissional na qual eu possa contribuir com responsabilidade, comunicação e dedicação, ao mesmo tempo em que aprendo com pessoas mais experientes.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="habilidades">
+      <div class="container">
+        <p class="section-label">Habilidades</p>
+        <h2>Conhecimentos que venho aplicando.</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Python</h3>
+            <p>Lógica, estruturas de dados, arquivos, exceções, CLI, SQLite e testes básicos.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Desenvolvimento Web</h3>
+            <p>HTML semântico, CSS responsivo, JavaScript, DOM, formulários e localStorage.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Dados e ferramentas</h3>
+            <p>SQL, SQLite, Git, GitHub, VS Code, terminal e organização de repositórios.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Suporte e QA</h3>
+            <p>Diagnóstico, pesquisa de soluções, orientação ao usuário e criação de casos de teste.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <p class="section-label">Projetos</p>
+        <h2>Soluções práticas para demonstrar meus estudos.</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-tag">Python · SQLite</span>
+            <h3>Job Tracker</h3>
+            <p>Aplicação de terminal para cadastrar candidaturas, atualizar etapas, filtrar registros, gerar estatísticas e exportar CSV.</p>
+            <ul>
+              <li>Operações CRUD</li>
+              <li>Persistência com SQLite</li>
+              <li>Testes com unittest</li>
+            </ul>
+            <a href="https://github.com/EduardoFae210/job-tracker-python" target="_blank" rel="noreferrer">Ver repositório →</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>Helpdesk Dashboard</h3>
+            <p>Painel de chamados de suporte com prioridades, status, busca, filtros, indicadores e persistência local.</p>
+            <ul>
+              <li>Interface responsiva</li>
+              <li>Manipulação do DOM</li>
+              <li>Plano de testes</li>
+            </ul>
+            <a href="https://eduardofae210.github.io/helpdesk-dashboard/" target="_blank" rel="noreferrer">Abrir projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+            <h3>Portfólio Pessoal V2</h3>
+            <p>Este site, criado para apresentar minha trajetória, competências e projetos de forma clara e responsiva.</p>
+            <ul>
+              <li>Modo claro e escuro</li>
+              <li>Acessibilidade básica</li>
+              <li>GitHub Pages</li>
+            </ul>
+            <a href="https://github.com/EduardoFae210/portfolio-pessoal-v2" target="_blank" rel="noreferrer">Ver código →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="formacao">
+      <div class="container">
+        <p class="section-label">Formação</p>
+        <div class="timeline">
+          <article>
+            <span>2026 — 2029</span>
+            <h2>Bacharelado em Ciência da Computação</h2>
+            <p>Universidade de Passo Fundo — UPF</p>
+            <p>Atualmente no 2º semestre, com estudos em algoritmos, programação, desenvolvimento web, estruturas de dados e sistemas computacionais.</p>
+          </article>
+          <article>
+            <span>Concluído</span>
+            <h2>Ensino Médio</h2>
+            <p>Colégio Marista Conceição</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Contato</p>
+          <h2>Vamos conversar sobre uma oportunidade?</h2>
+          <p>Tenho disponibilidade de manhã e à tarde e posso atuar presencialmente em Passo Fundo ou remotamente.</p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:eduardofae21@gmail.com">eduardofae21@gmail.com</a>
+          <button class="copy-button" type="button" data-email="eduardofae21@gmail.com">Copiar e-mail</button>
+          <a href="https://www.linkedin.com/in/eduardofaezanchet/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/EduardoFae210" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Eduardo Faé Zanchet.</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
