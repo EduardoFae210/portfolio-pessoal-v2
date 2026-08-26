@@ -1,6 +1,6 @@
 # Portfólio Pessoal V2
 
-Portfólio profissional de Eduardo Faé Zanchet, estudante de Ciência da Computação na Universidade de Passo Fundo.
+Portfólio de Eduardo Faé Zanchet, estudante de Ciência da Computação na Universidade de Passo Fundo. O site apresenta seus conhecimentos atuais em programação, banco de dados e suporte de TI, além dos projetos desenvolvidos durante os estudos.
 
 ## Funcionalidades
 
